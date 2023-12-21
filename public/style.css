@@ -540,12 +540,24 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-yellow-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+.w-full {
+  width: 100%;
 }
 
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
+.w-11xl {
+  width: 1340px;
+}
+
+.bg-accent-color {
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 113 101 / var(--tw-bg-opacity));
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.pl-1 {
+  padding-left: 0.25rem;
 }
