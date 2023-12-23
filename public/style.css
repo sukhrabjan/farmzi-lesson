@@ -540,12 +540,92 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.w-full {
-  width: 100%;
+.m-\[5px\] {
+  margin: 5px;
 }
 
-.w-11xl {
-  width: 1340px;
+.mb-18 {
+  margin-bottom: 18px;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
+.mr-123 {
+  margin-right: 123px;
+}
+
+.mr-15 {
+  margin-right: 60px;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.mr-2\.5 {
+  margin-right: 0.625rem;
+}
+
+.mr-5 {
+  margin-right: 1.25rem;
+}
+
+.mb-\[5px\] {
+  margin-bottom: 5px;
+}
+
+.mb-\[59px\] {
+  margin-bottom: 59px;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-30 {
+  height: 30px;
+}
+
+.h-390 {
+  height: 390px;
+}
+
+.w-170 {
+  width: 170px;
+}
+
+.w-455 {
+  width: 455px;
+}
+
+.w-56 {
+  width: 14rem;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-212 {
+  width: 212px;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .bg-accent-color {
@@ -553,11 +633,87 @@ video {
   background-color: rgb(23 113 101 / var(--tw-bg-opacity));
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.pl-1 {
-  padding-left: 0.25rem;
+.p-\[\] {
+  padding: ;
+}
+
+.p-\[0\] {
+  padding: 0;
+}
+
+.p-\[9px\] {
+  padding: 9px;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.pt-\[9px\] {
+  padding-top: 9px;
+}
+
+.pb-\[9px\] {
+  padding-bottom: 9px;
+}
+
+.text-\[17px\] {
+  font-size: 17px;
+}
+
+.text-\[60px\] {
+  font-size: 60px;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.not-italic {
+  font-style: normal;
+}
+
+.leading-12 {
+  line-height: 26px;
+}
+
+.leading-13 {
+  line-height: 29px;
+}
+
+.leading-79 {
+  line-height: 78px;
+}
+
+.text-accent2 {
+  --tw-text-opacity: 1;
+  color: rgb(164 214 207 / var(--tw-text-opacity));
+}
+
+.text-accent3 {
+  --tw-text-opacity: 1;
+  color: rgb(23 113 101 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 100%;
+  max-width: 1340px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 1.5rem;
 }
